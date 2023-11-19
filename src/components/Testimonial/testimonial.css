@@ -1,0 +1,67 @@
+
+.testimonial {
+    padding-bottom: 5rem;
+    background-color: #EDCF86;
+  }
+  .testimonial .container {
+    background-color: #FFFFFF;
+    padding: 0rem 4rem 8rem 4rem;
+  }
+  .testimonial .container .section-title {
+    text-align: center;
+  }
+  .testimonial .container .what-our-client-says {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  @media (min-width: 768px) {
+    .testimonial .container .what-our-client-says {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  .testimonial .container .what-our-client-says article h3 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 35px;
+  }
+  .testimonial .container .what-our-client-says article a {
+    padding: 15px;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #191919;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .testimonial .container .what-our-client-says article p {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 1rem;
+    padding-right: 1rem;
+  }
+  .testimonial .container .what-our-client-says article .red-font {
+    color: #F94D1C;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+  }
+  .testimonial .container .what-our-client-says article i {
+    margin-left: 5px;
+    color: #F94D1C;
+  }
+  .testimonial .container .what-our-client-says article .clients {
+    display: flex;
+  }
+  .testimonial .container .what-our-client-says article .clients img {
+    height: 50%;
+    margin-top: 2rem;
+    margin-right: 15px;
+  }
+  .testimonial .container .all-reviews {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+  }

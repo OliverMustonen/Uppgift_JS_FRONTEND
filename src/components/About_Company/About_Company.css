@@ -1,0 +1,87 @@
+
+.about-company {
+    margin-left: 10rem;
+    margin-top: 5rem;
+  }
+  .about-company .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about-company .container .container-founder {
+    position: relative;
+  }
+  .about-company .container .container-founder .founder {
+    background-color: #BEEBFF;
+    position: absolute;
+    align-items: center;
+    text-align: left;
+    height: 170px;
+    width: 350px;
+    bottom: 8rem;
+    left: -4rem;
+    color: #191919;
+  }
+  .about-company .container .container-founder h4 {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+  }
+  .about-company .container .container-founder span {
+    color: #F94D1C;
+    font-weight: 700;
+    font-size: large;
+    font-family: "DM Sans", sans-serif;
+  }
+  .about-company .container .container-founder p {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  .about-company .container .content {
+    width: 600px;
+    margin-bottom: 20rem;
+    text-align: left;
+  }
+  @media (max-width: 1200px) {
+    .about-company .container .content {
+      padding-top: 80px;
+      padding-bottom: 80px;
+      text-align: center;
+    }
+  }
+  .about-company .container .content h2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 992px) {
+    .about-company .container .content h2 {
+      font-size: 40px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .about-company .container .content h2 {
+      font-size: 50px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .about-company .container .content h2 {
+      font-size: 50px;
+    }
+  }
+  .about-company .container .content p {
+    font-size: 18px;
+    margin-bottom: 3rem;
+  }
+  .about-company .container .content a {
+    margin-top: 5rem;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .about-company .container img {
+    width: 500px;
+  }

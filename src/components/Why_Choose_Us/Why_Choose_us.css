@@ -1,0 +1,91 @@
+
+.why-choose-us {
+     background-image: url("../../assets/images/Why_Choose_Us/BG.png");
+     background-repeat: no-repeat;
+     background-attachment: local;
+     background-position: 100% 100%;
+   }
+   .why-choose-us .container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 3rem;
+   }
+   .why-choose-us .container .content .content-left {
+     display: flex;
+   }
+   .why-choose-us .container .content .small-box {
+     margin-left: 1.5rem;
+   }
+   .why-choose-us .container .content .icon {
+     display: inline-block;
+   }
+   .why-choose-us .container .content .icon i {
+     display: block;
+     font-size: 2rem;
+     padding-bottom: 1.6rem;
+     border-radius: 5px;
+   }
+   @media (max-width: 1200px) {
+     .why-choose-us .container .content {
+       padding-top: 80px;
+       padding-bottom: 80px;
+       text-align: center;
+     }
+   }
+   .why-choose-us .container .content h2 {
+     font-family: "DM Sans", sans-serif;
+     font-weight: 700;
+     font-size: 45px;
+     padding-right: 6rem;
+     margin-bottom: 3rem;
+   }
+   @media (max-width: 992px) {
+     .why-choose-us .container .content h2 {
+       font-size: 40px;
+     }
+   }
+   @media (min-width: 1200px) {
+     .why-choose-us .container .content h2 {
+       font-size: 50px;
+     }
+   }
+   @media (min-width: 1400px) {
+     .why-choose-us .container .content h2 {
+       font-size: 50px;
+     }
+   }
+   .why-choose-us .container .content h3 {
+     font-family: "DM Sans", sans-serif;
+     font-weight: 700;
+     font-size: 22px;
+   }
+   .why-choose-us .container .content p {
+     font-size: 16px;
+   }
+   .why-choose-us .container .content a {
+     margin-right: 10px;
+   }
+   .why-choose-us .container img {
+     margin-right: -50px;
+   }
+   @media (max-width: 992px) {
+     .why-choose-us .container img {
+       display: none;
+     }
+   }
+   @media (max-width: 1200px) {
+     .why-choose-us .container img {
+       display: none;
+     }
+   }
+   @media (min-width: 1200px) {
+     .why-choose-us .container img {
+       margin-bottom: 7rem;
+     }
+   }
+   @media (min-width: 1400px) {
+     .why-choose-us .container img {
+       margin-bottom: 7rem;
+     }
+   }

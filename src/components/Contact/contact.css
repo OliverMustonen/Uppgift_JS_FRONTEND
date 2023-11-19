@@ -1,0 +1,166 @@
+
+.contact .showcase_title {
+    text-align: center;
+    background-color: #F0EFE9;
+    background-image: url("../../assets/images/background-lines.svg");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: 0% 100%;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+  }
+
+  .contact .showcase_title h1{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: "DM Sans", sans-serif;
+  }
+
+  .contact .showcase_title a{
+    display: inline-block;
+    color: #191919;
+    text-decoration: none;
+    margin-right: 25px;
+    position: relative;
+    
+  }
+
+  .contact .showcase_title a:hover::after {
+    content: "";
+    position: absolute;
+    font-weight: 500;
+    height: 2px;
+    width: 15px;
+    background-color: #191919;
+    left: 50%;
+    bottom: -3px;
+    transform: translate(calc(50% - 15px));
+    
+  }
+
+.contact .box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0rem auto;
+}
+
+.contact .box .icon_left {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0rem auto;
+    border: 1px solid #D1D1D1;
+    width: 30%;
+    margin-top: 8rem;
+    padding-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.contact .box .icon_left:hover {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0rem auto;
+    border: 1px solid #000000;
+    width: 30%;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    background-color: #F9D783;
+}
+
+.contact .box .icon_left .us {
+    width: 13rem;
+}
+
+.contact .container .btn-circle {
+    background-color: #191919;
+    border: 1px solid #191919;
+    border-radius: 40px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 4.7rem;
+  }
+
+  .contact .container .btn-circle:hover {
+    background-color: white;
+    border: 1px solid transparent;
+    color: #191919;
+  }
+  .contact .container form .btn-yellow:hover {
+    background-color: black;
+    
+  }
+
+  .contact .container .message_form {
+    background-color: #F0EFE9;
+    text-align: center;
+    padding-top: 10rem;
+    font-weight: 900;
+    padding-bottom: 5rem;
+    margin-bottom: 8rem;
+  }
+
+  .contact .container .message_form form {
+    display: inline-block;
+    align-items: center;
+    width: 75%;
+    
+  }
+ 
+  .contact .container .message_form h1{
+    font-size: 2.7rem;
+    font-weight: 900;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 1.4rem;
+  }
+ 
+
+  .contact .container .message_form input{
+    border-radius: 2rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .contact .container .message_form input p{
+    color: #8C8C8C;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+  }
+
+  #name {
+    height: 4rem;
+  }
+
+  #email {
+    height: 4rem;
+  }
+
+  #message {
+    height: 10rem;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+  }
+
+form div span {
+    font-size: 0.9em;
+    color: #df4848;
+}
+
+.error {
+    color: #df4848;
+    border: 1px solid #df4848;
+    background-color: #fff5f5;
+}
+
+.errorMessage {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ff0000;
+   
+}
+
+
+

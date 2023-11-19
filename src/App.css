@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;0,9..40,900;1,9..40,300&family=Inter:wght@300;400;500;700;900&family=Poppins:ital,wght@0,400;1,400;1,500&family=Smooch+Sans:wght@300;400;500;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Poppins:ital,wght@0,400;1,400;1,500&family=Smooch+Sans:wght@300;400;500;600;700;900&display=swap");
+
+html, body {
+  margin: 0;
+  color: #191919;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.red-font {
+  color: #F94D1C;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.btn-yellow {
+  background-color: #F9D783;
+  border: 1px solid #F9D783;
+  border-radius: 25px;
+  color: #191919;
+  text-decoration: none;
+  padding: 12px 22px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.btn-yellow i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.btn-yellow:hover {
+  background-color: #191919;
+  border: 1px solid #F9D783;
+  color: #ebebeb;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  border: 1px solid #191919;
+  border-radius: 25px;
+  color: #191919;
+  text-decoration: none;
+  padding: 15px 22px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.btn-transparent i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.btn-transparent:hover {
+  background-color: #191919;
+  border: 1px solid #F9D783;
+  color: #ebebeb;
+}
+
+.btn-black {
+  background-color: #191919;
+  border: 1px solid #191919;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  padding: 15px 22px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.btn-black i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.btn-black:hover {
+  background-color: #F9D783;
+  border: 1px solid #191919;
+  color: #191919;
+}
+
+
+
+.about-company {
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
+.about-company .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-company .container .container-founder {
+  position: relative;
+}
+.about-company .container .container-founder .founder {
+  background-color: #BEEBFF;
+  position: absolute;
+  align-items: center;
+  text-align: left;
+  height: 170px;
+  width: 350px;
+  bottom: 8rem;
+  left: -4rem;
+  color: #191919;
+}
+.about-company .container .container-founder h4 {
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+}
+.about-company .container .container-founder span {
+  color: #F94D1C;
+  font-weight: 700;
+  font-size: large;
+  font-family: "DM Sans", sans-serif;
+}
+.about-company .container .container-founder p {
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+.about-company .container .content {
+  width: 600px;
+  margin-bottom: 20rem;
+  text-align: left;
+}
+@media (max-width: 1200px) {
+  .about-company .container .content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+}
+.about-company .container .content h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  margin-bottom: 2rem;
+}
+@media (max-width: 992px) {
+  .about-company .container .content h2 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-company .container .content h2 {
+    font-size: 50px;
+  }
+}
+@media (min-width: 1400px) {
+  .about-company .container .content h2 {
+    font-size: 50px;
+  }
+}
+.about-company .container .content p {
+  font-size: 18px;
+  margin-bottom: 3rem;
+}
+.about-company .container .content a {
+  margin-top: 5rem;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.about-company .container img {
+  width: 500px;
+}
+
+
+
+.section-title {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+.section-title h2 {
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.section-title {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+.section-title h2 {
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+
